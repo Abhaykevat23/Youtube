@@ -42,7 +42,7 @@ function VideoUpload({setvideoUploadPage}) {
             fileData.append("title", Title);
             fileData.append("uploader", CurrentUser?.result.name);
             fileData.append("chanel", CurrentUser?.result._id);
-            console.log(VideoFile);
+            console.log("videofile log"+VideoFile);
             dispatch(uploadVideo({
                 fileData: fileData, 
                 fileOptions: fileOptions
