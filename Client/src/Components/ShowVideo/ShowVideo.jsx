@@ -8,7 +8,7 @@ function ShowVideo({vid}) {
   return (
     <>
         <Link to={`/videopage/${vid?._id}`}>
-            <video src={`http://localhost:5500/${vid?.filePath}`} className='video-showvideo' />
+            <video src={`https://youtube-server-snowy.vercel.app/${vid?.filePath}`} className='video-showvideo' />
         </Link>
         <div className='video-description'> 
           <div className="chanel-logo-app">
