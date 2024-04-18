@@ -49,7 +49,7 @@ function VideoPage() {
                 <div className='container-videopage2'>
                     <div className='video-display-screen-videopage' >
                         <video 
-                            src={`http://localhost:5500/${vv?.filePath}`}
+                            src={`https://youtube-server-snowy.vercel.app/${vv?.filePath}`}
                             // src={vid}
                             className={"video-showvideo-videopage"}
                             controls
