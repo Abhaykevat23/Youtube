@@ -21,7 +21,7 @@ function VideoUpload({setvideoUploadPage}) {
              const percentage=Math.floor(((loaded/1000)*100)/(total/1000));
              setProgress(percentage);
              if(percentage===100){
-                setTimeout(() => {}, 3000);
+                setTimeout(() => {}, 5000);
                 setvideoUploadPage(false);
              }
         }
