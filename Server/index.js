@@ -28,13 +28,13 @@ app.use('/user',userRoutes)
 app.use('/video',videoRoutes)
 app.use('/comment',commentRoutes)
 
-const PORT=5500
+const PORT=process.env.PORT
 
 app.listen(PORT,()=>{
     console.log(`server running on the port ${PORT} `)
 })
 
-const DB_URL="mongodb+srv://abhaykevat6355:Abhay%402310@cluster0.mo4gzgk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+const DB_URL=process.env.CONNECTION_URL
 
 mongoose.connect(DB_URL,{}).then(()=>{
     console.log("MongoDB database connected........")
