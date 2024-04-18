@@ -1,0 +1,55 @@
+.auth-container{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 500;
+    top: 0;
+    right: 0;
+    box-sizing: border-box;
+    display: flex;
+}
+.auth-container2{
+    display: flex;
+    padding: 0.5rem;
+    position: absolute;
+    right: 2.5rem;
+    background-color: rgb(18, 18, 18);
+    top: 1rem;
+    text-align: center;
+    flex-direction: column;
+    border: 1px solid rgba(103, 103, 103,0.6);
+    color: aliceblue;
+    z-index: 500;
+}
+.user-details{
+    margin: 0 auto;
+    display: flex;
+    padding: 0.7rem;
+    border-bottom: 2px solid gray;
+    padding-inline-start: 1.2rem 0.9rem;
+}
+.email-auth{
+    font-size: large;
+    padding: 0.2rem 0.5rem;
+    font-weight: bolder;
+    margin: auto;
+}
+.btn-auth{
+    color: aliceblue;
+    font-weight: bolder;
+    font-size: larger;
+    padding: 0.5rem 0.5rem;
+    border: 0;
+    margin: 0.2rem 0;
+    background-color: transparent;
+}
+.btn-auth:hover{
+    background-color: rgb(48, 48, 48);
+}
+.btns-auth{
+    padding: 1.5rem 0;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    text-decoration: none;
+}
